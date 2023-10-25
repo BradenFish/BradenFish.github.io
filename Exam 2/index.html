@@ -2,17 +2,163 @@
 
 <head>
     <title>[] Braden Fisher Exam 2 MIS 3033</title>
+
+    <style>
+
+        #main {
+            width: 800px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .border {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        .title {
+            text-transform: uppercase;
+            background-color: lightskyblue;
+            border-radius: 5px;
+        }
+
+        #h {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #b1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        #b2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #left {
+            display: flex;
+            flex-direction: column;
+            width: 510px;
+        }
+
+        #img {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #right {
+            width: 280px;
+        }
+
+        #f {
+            height: 60px;
+            font-weight: bold;
+            font-size: 20px;
+            color: grey;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
-    <img src="static/head1 (1).png" style="height:100px;" />
-    <img src="static/head2 (1).png" style="height:100px;" />
-    <img src="static/linkedin (1).png" style="height:100px;" />
-    <img src="static/css.svg" style="height:100px;" />
-    <img src="static/html.svg" style="height:100px;" />
-    <img src="static/javascript.svg" style="height:100px;" />
-    <img src="static/sqlite.svg" style="height:100px;" />
-    <img src="static/logo.svg" style="height:100px;" />
+
+    <div id="main">
+
+        <div id="h">
+            <div class="border" style="width:200px;height:70px; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+                MIS 3033 Exam 2
+                <br />
+                Braden Fisher
+            </div>
+
+            <div style="width:200px; height:70px; display:flex; flex-direction:column; align-items:center; justify-content:center; margin-left:10px;" class="border">
+                [RZZT]
+            </div>
+
+        </div>
+
+        <div id="b1" class="border" style="height:80px;">
+            <div>
+                <img src="static/head1 (1).png" style="height:60px; border-radius:50%; margin-left:20px;" />
+            </div>
+            <div style="margin-left:10px;">
+                Braden Fisher
+                <br />
+                MIS Student
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="static/linkedin (1).png" style="width:30px; margin-left:20px;" />
+                </a>
+
+            </div>
+
+        </div>
+
+        <div id="b2" style="margin-left:5px;">
+            <div id="left">
+
+                <div id="up" style="height:110px;" class="border">
+                    <span class="title">About Me:</span>
+                    <br />
+                    <div>
+                        I am a MIS student. I like programming and I am good at C#. I leaned Entity Framework for Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC Dynamic Web App development and Web API development.
+                    </div>
+                </div>
+                <div id="down" style="height:160px;" class="border">
+                    <span class="title">Achievements</span>
+
+                    <div id="img" style="margin-top:30px;">
+                        <img src="static/html.svg" style="height:100px;" class="border" />
+                        <img src="static/css.svg" style="height:100px;" class="border" />
+                        <img src="static/javascript.svg" style="height:100px;" class="border" />
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div id="right" class="border">
+                <div>
+                    <span class="title">Recent News</span>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>Learned C#</li>
+                        <li>Learned Entity Framework</li>
+                        <li>Learned <img src="static/sqlite.svg" style="height:40px;" /></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div id="f" class="border" ">
+            <div style="margin-left:auto; margin-right:10px;">
+                Developed by Braden Fisher here for MIS 3033 Exam 2
+            </div>
+            <div>
+                <img src="static/logo.svg" style="height:50px;" />
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
+
